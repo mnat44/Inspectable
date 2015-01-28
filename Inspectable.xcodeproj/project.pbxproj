@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		363B35861A7860D7009665EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363B35851A7860D7009665EE /* AppDelegate.swift */; };
+		363B35891A7860D7009665EE /* Inspectable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 363B35871A7860D7009665EE /* Inspectable.xcdatamodeld */; };
+		363B358B1A7860D7009665EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363B358A1A7860D7009665EE /* ViewController.swift */; };
+		363B358E1A7860D7009665EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 363B358C1A7860D7009665EE /* Main.storyboard */; };
+		363B35901A7860D7009665EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 363B358F1A7860D7009665EE /* Images.xcassets */; };
+		363B35931A7860D7009665EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 363B35911A7860D7009665EE /* LaunchScreen.xib */; };
+		363B359F1A7860D7009665EE /* InspectableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363B359E1A7860D7009665EE /* InspectableTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		363B35991A7860D7009665EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 363B35781A7860D7009665EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 363B357F1A7860D7009665EE;
+			remoteInfo = Inspectable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		363B35801A7860D7009665EE /* Inspectable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inspectable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		363B35841A7860D7009665EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		363B35851A7860D7009665EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		363B35881A7860D7009665EE /* Inspectable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Inspectable.xcdatamodel; sourceTree = "<group>"; };
+		363B358A1A7860D7009665EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		363B358D1A7860D7009665EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		363B358F1A7860D7009665EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		363B35921A7860D7009665EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		363B35981A7860D7009665EE /* InspectableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InspectableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		363B359D1A7860D7009665EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		363B359E1A7860D7009665EE /* InspectableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectableTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		363B357D1A7860D7009665EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363B35951A7860D7009665EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		363B35771A7860D7009665EE = {
+			isa = PBXGroup;
+			children = (
+				363B35821A7860D7009665EE /* Inspectable */,
+				363B359B1A7860D7009665EE /* InspectableTests */,
+				363B35811A7860D7009665EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		363B35811A7860D7009665EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				363B35801A7860D7009665EE /* Inspectable.app */,
+				363B35981A7860D7009665EE /* InspectableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		363B35821A7860D7009665EE /* Inspectable */ = {
+			isa = PBXGroup;
+			children = (
+				363B35851A7860D7009665EE /* AppDelegate.swift */,
+				363B358A1A7860D7009665EE /* ViewController.swift */,
+				363B358C1A7860D7009665EE /* Main.storyboard */,
+				363B358F1A7860D7009665EE /* Images.xcassets */,
+				363B35911A7860D7009665EE /* LaunchScreen.xib */,
+				363B35871A7860D7009665EE /* Inspectable.xcdatamodeld */,
+				363B35831A7860D7009665EE /* Supporting Files */,
+			);
+			path = Inspectable;
+			sourceTree = "<group>";
+		};
+		363B35831A7860D7009665EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				363B35841A7860D7009665EE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		363B359B1A7860D7009665EE /* InspectableTests */ = {
+			isa = PBXGroup;
+			children = (
+				363B359E1A7860D7009665EE /* InspectableTests.swift */,
+				363B359C1A7860D7009665EE /* Supporting Files */,
+			);
+			path = InspectableTests;
+			sourceTree = "<group>";
+		};
+		363B359C1A7860D7009665EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				363B359D1A7860D7009665EE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		363B357F1A7860D7009665EE /* Inspectable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 363B35A21A7860D7009665EE /* Build configuration list for PBXNativeTarget "Inspectable" */;
+			buildPhases = (
+				363B357C1A7860D7009665EE /* Sources */,
+				363B357D1A7860D7009665EE /* Frameworks */,
+				363B357E1A7860D7009665EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Inspectable;
+			productName = Inspectable;
+			productReference = 363B35801A7860D7009665EE /* Inspectable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		363B35971A7860D7009665EE /* InspectableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 363B35A51A7860D7009665EE /* Build configuration list for PBXNativeTarget "InspectableTests" */;
+			buildPhases = (
+				363B35941A7860D7009665EE /* Sources */,
+				363B35951A7860D7009665EE /* Frameworks */,
+				363B35961A7860D7009665EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				363B359A1A7860D7009665EE /* PBXTargetDependency */,
+			);
+			name = InspectableTests;
+			productName = InspectableTests;
+			productReference = 363B35981A7860D7009665EE /* InspectableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		363B35781A7860D7009665EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = MotokiNarita;
+				TargetAttributes = {
+					363B357F1A7860D7009665EE = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					363B35971A7860D7009665EE = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 363B357F1A7860D7009665EE;
+					};
+				};
+			};
+			buildConfigurationList = 363B357B1A7860D7009665EE /* Build configuration list for PBXProject "Inspectable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 363B35771A7860D7009665EE;
+			productRefGroup = 363B35811A7860D7009665EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				363B357F1A7860D7009665EE /* Inspectable */,
+				363B35971A7860D7009665EE /* InspectableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		363B357E1A7860D7009665EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363B358E1A7860D7009665EE /* Main.storyboard in Resources */,
+				363B35931A7860D7009665EE /* LaunchScreen.xib in Resources */,
+				363B35901A7860D7009665EE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363B35961A7860D7009665EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		363B357C1A7860D7009665EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363B358B1A7860D7009665EE /* ViewController.swift in Sources */,
+				363B35891A7860D7009665EE /* Inspectable.xcdatamodeld in Sources */,
+				363B35861A7860D7009665EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363B35941A7860D7009665EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363B359F1A7860D7009665EE /* InspectableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		363B359A1A7860D7009665EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 363B357F1A7860D7009665EE /* Inspectable */;
+			targetProxy = 363B35991A7860D7009665EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		363B358C1A7860D7009665EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				363B358D1A7860D7009665EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		363B35911A7860D7009665EE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				363B35921A7860D7009665EE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		363B35A01A7860D7009665EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		363B35A11A7860D7009665EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		363B35A31A7860D7009665EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Inspectable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		363B35A41A7860D7009665EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Inspectable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		363B35A61A7860D7009665EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InspectableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inspectable.app/Inspectable";
+			};
+			name = Debug;
+		};
+		363B35A71A7860D7009665EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InspectableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inspectable.app/Inspectable";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		363B357B1A7860D7009665EE /* Build configuration list for PBXProject "Inspectable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363B35A01A7860D7009665EE /* Debug */,
+				363B35A11A7860D7009665EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		363B35A21A7860D7009665EE /* Build configuration list for PBXNativeTarget "Inspectable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363B35A31A7860D7009665EE /* Debug */,
+				363B35A41A7860D7009665EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		363B35A51A7860D7009665EE /* Build configuration list for PBXNativeTarget "InspectableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363B35A61A7860D7009665EE /* Debug */,
+				363B35A71A7860D7009665EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		363B35871A7860D7009665EE /* Inspectable.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				363B35881A7860D7009665EE /* Inspectable.xcdatamodel */,
+			);
+			currentVersion = 363B35881A7860D7009665EE /* Inspectable.xcdatamodel */;
+			path = Inspectable.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 363B35781A7860D7009665EE /* Project object */;
+}
