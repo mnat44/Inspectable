@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		363862DE1A789F6400399472 /* GradationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363862DD1A789F6400399472 /* GradationView.swift */; };
 		363B35861A7860D7009665EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363B35851A7860D7009665EE /* AppDelegate.swift */; };
 		363B35891A7860D7009665EE /* Inspectable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 363B35871A7860D7009665EE /* Inspectable.xcdatamodeld */; };
 		363B358B1A7860D7009665EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363B358A1A7860D7009665EE /* ViewController.swift */; };
@@ -14,6 +15,7 @@
 		363B35901A7860D7009665EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 363B358F1A7860D7009665EE /* Images.xcassets */; };
 		363B35931A7860D7009665EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 363B35911A7860D7009665EE /* LaunchScreen.xib */; };
 		363B359F1A7860D7009665EE /* InspectableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363B359E1A7860D7009665EE /* InspectableTests.swift */; };
+		36400BCB1A79F3980042284B /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36400BCA1A79F3980042284B /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		363862DD1A789F6400399472 /* GradationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradationView.swift; sourceTree = "<group>"; };
 		363B35801A7860D7009665EE /* Inspectable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inspectable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		363B35841A7860D7009665EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		363B35851A7860D7009665EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +41,7 @@
 		363B35981A7860D7009665EE /* InspectableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InspectableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		363B359D1A7860D7009665EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		363B359E1A7860D7009665EE /* InspectableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectableTests.swift; sourceTree = "<group>"; };
+		36400BCA1A79F3980042284B /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 				363B35851A7860D7009665EE /* AppDelegate.swift */,
 				363B358A1A7860D7009665EE /* ViewController.swift */,
 				363B358C1A7860D7009665EE /* Main.storyboard */,
+				363862DD1A789F6400399472 /* GradationView.swift */,
+				36400BCA1A79F3980042284B /* CustomView.swift */,
 				363B358F1A7860D7009665EE /* Images.xcassets */,
 				363B35911A7860D7009665EE /* LaunchScreen.xib */,
 				363B35871A7860D7009665EE /* Inspectable.xcdatamodeld */,
@@ -215,7 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36400BCB1A79F3980042284B /* CustomView.swift in Sources */,
 				363B358B1A7860D7009665EE /* ViewController.swift in Sources */,
+				363862DE1A789F6400399472 /* GradationView.swift in Sources */,
 				363B35891A7860D7009665EE /* Inspectable.xcdatamodeld in Sources */,
 				363B35861A7860D7009665EE /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +417,7 @@
 				363B35A41A7860D7009665EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		363B35A51A7860D7009665EE /* Build configuration list for PBXNativeTarget "InspectableTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				363B35A71A7860D7009665EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
