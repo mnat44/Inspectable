@@ -1,0 +1,3 @@
+# Inspectable
+
+Interface Builder上でカスタム設定が可能なUIViewを作成するサンプルプロジェクト
